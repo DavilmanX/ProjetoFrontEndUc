@@ -1,6 +1,72 @@
-p {font-size: large;}
-h1{margin: 0; align-content: first baseline; }
-h2{font-size:x-large; text-align:center left;color: #ddc172;}
-.tofu {color: brown;text-shadow: 2ex;
-}
-#punk { text-align: center;}
+.Logo {
+    display: flex;
+    background-color: #7a7a7a;
+    margin: 0px;}
+.ImgLogo {
+    flex: 1;
+    background-color: #7a7a7a; /* Define a cor de fundo cinza */
+    padding: 10px; /* Adiciona espaço interno */
+    margin: 10px; /* Adiciona uma margem entre os elementos */}
+.NomeLogo {
+    flex: 1;
+    background-color: #7a7a7a; /* Define a cor de fundo cinza */
+    padding: 50px; /* Adiciona espaço interno */
+    color: aliceblue;}
+.NumeroLogo {
+    flex: 1;
+    background-color: #7a7a7a; /* Define a cor de fundo cinza */
+    padding: 50px; /* Adiciona espaço interno */
+    color: aliceblue;}
+
+    .MeioSite {
+        margin-top: 0; /* Remove a margem superior */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+    
+    .ImgMeio img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    .RecadoMeio {
+        position: absolute; /* Posiciona absolutamente dentro do contêiner */
+        top: 50%; /* Alinha verticalmente no centro */
+        left: 50%; /* Alinha horizontalmente no centro */
+        transform: translate(-50%, -50%); /* Move o texto para o centro */
+        color: white; /* Cor do texto */
+        font-size: 60px; /* Tamanho da fonte */
+        background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+        padding: 20px; /* Espaçamento interno */
+    }
+    
+    .FinalSite {
+        display: flex;
+        background-color: #a3a3a3;
+        margin: 0;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .RecadoFinal {
+        flex: 1; /* Ocupa o espaço disponível */
+        padding: 20px; /* Espaçamento interno */
+        background-color: #727272; /* Cor de fundo */
+        color: white; /* Cor do texto */
+    }
+    
+    .InfoFinal {
+        flex: 1; /* Ocupa o espaço disponível */
+        padding: 20px; /* Espaçamento interno */
+        background-color: white; /* Cor de fundo */
+        border-radius: 10px; /* Bordas arredondadas */
+    }
+    
+    .ImagemCemiterio {
+        flex: 1; /* Ocupa o espaço disponível */
+        margin-left: 20px; /* Espaço à esquerda */
+        border-radius: 10px; /* Bordas arredondadas */
+    }
+    
+    .WhatsFinal, .InstaFinal {
+        margin-left: 20px; /* Espaço à esquerda */
+    }
